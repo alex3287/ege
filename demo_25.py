@@ -1,4 +1,4 @@
-def devisions(number):
+def deviders(number):
     k = 2
     arr = []
     while k*k <= number:
@@ -10,6 +10,6 @@ def devisions(number):
 
 
 for i in range(174457, 174506):
-    arr = devisions(i)
+    arr = deviders(i)
     if len(arr) == 2:
         print(arr, arr[0]*arr[1])
