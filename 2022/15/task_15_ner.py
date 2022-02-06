@@ -1,5 +1,5 @@
 def f(x, y, A):
-    return ((48 != y + 2*x) or (A < x) or (A < y))
+    return (x + 2*y < A) or (y > x) or (x > 30)
 
 
 for A in range(300):
@@ -11,3 +11,4 @@ for A in range(300):
                 break
     if flag:
         print(A)
+
