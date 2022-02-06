@@ -1,5 +1,5 @@
 def f(x, A):
-    return (((x % A == 0) and (x % 21 == 0)) <= (x % 18 == 0))
+    return (x % A != 0) <= ((x % 6 == 0) <= (x % 9 != 0))
 
 
 for A in range(1, 1000):
