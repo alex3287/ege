@@ -1,5 +1,5 @@
 A = [int(i) for i in open('input.txt')]
-# print(A)
+print(A)
 
 # 30
 # 3 94
@@ -28,3 +28,4 @@ for i in range(len(A)-1):
             min_sum = A[i] + A[i+1]
 
 print(count, min_sum)
+
