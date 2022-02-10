@@ -14,3 +14,4 @@ for a1 in range(-100, 100):
             if a2 - a1 < maxi:
                 maxi = a2 - a1
 print(maxi)
+
