@@ -1,4 +1,4 @@
-with open('input.txt') as fin:
+with open('24.txt') as fin:
     s = fin.readline()
 print(s)
 
