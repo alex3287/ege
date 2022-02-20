@@ -1,6 +1,6 @@
-with open('24.txt') as fin:
+with open('input.txt') as fin:
     s = fin.readline()
-# print(s)
+print(s)
 
 count = 1
 count_max = 0
