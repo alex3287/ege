@@ -18,3 +18,4 @@ for i in range(len(A)-1):
         suma = A[i+1]
 
 print(sum_max)
+
